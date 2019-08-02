@@ -1,0 +1,73 @@
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;}
+@media screen and (max-width:320px){}
+  p {
+    background-color: #A93939;
+    color: #FFEBCD;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+  }
+ h1{
+ align-items: center;}
+  header {
+    background-color: #A93939;
+  }
+  body {
+    background-color: #A93939;
+    color: #FFEBCD;
+    margin: 10px;
+    padding 15px;
+  }
+  footer {
+    background-color: #A93939;
+  }
+  /* img {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;} */
+img {
+  width: 100%;
+  height: 45%;
+}
+h3 {
+  font-size: 40px;
+}
+  /* .parallax {
+   background-image: url("pexels-photo-624063.jpg");
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  } */
+  .tablinks {
+    background-color: #A93939;
+    color: #FFEBCD;
+    font-size: 25px;
+    /* float: left; */
+    border: #A93939;
+    outline: none;
+    cursor: pointer;
+    padding: 35px 38px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+.tab button:hover {
+  background-color: #CFBEA5;
+}
+.tab button.active {
+  background-color: #A93939;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #A93939;
+  border-top: none;
+}
+.tab{
+  display: flex;
+  justify-content: center;
+}
